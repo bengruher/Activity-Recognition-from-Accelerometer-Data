@@ -23,5 +23,11 @@ git clone https://github.com/bengruher/Activity-Recognition-from-Accelerometer-D
 
 To run the project, open the Jupyter notebook (ActivityRecognition.ipynb) and click "Cells" -> "Run All". This will run all of the cells in the notebook and display the output for each cell. You can also run each individual cell by pressing Shift+Enter on that cell. 
 
+You may notice that the cells take a different amount of time to execute. This notebook was originally developed and run on an ml.t2.medium notebook instance on Amazon Sagemaker. 
+
+**Running the project on Amazon Sagemaker:**
+
+Another notebook (SagemakerProject.ipynb) will also be provided with steps to run the most accurate model in an Amazon Sagemaker environment. The notebook guides you through a variety of Sagemaker-specific steps including configuring and launching a training job, evaluating the results of that training job, deploying your model to an inference endpoint, and tearing down that endpoint as part of the cleanup process. This notebook can be run the same way as any Jupyter notebook but requires the AWS SDK to be installed and for your machine to have the necessary AWS permissions to peform the aforementioned Sagemaker actions. 
+
 
 **Tags:** machine learning, time-series, activity recognition, accelerometer, classification
