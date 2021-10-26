@@ -29,7 +29,7 @@ You may notice that the cells take a different amount of time to execute. This n
 
 **Running the project on Amazon Sagemaker:**
 
-Another notebook (SagemakerProject.ipynb) will also be provided with steps to run the most accurate model in an Amazon Sagemaker environment. The notebook guides you through a variety of Sagemaker-specific steps including configuring and launching a training job, evaluating the results of that training job, deploying your model to an inference endpoint, and tearing down that endpoint as part of the cleanup process. This notebook can be run the same way as any Jupyter notebook but requires the AWS SDK to be installed and for your machine to have the necessary AWS permissions to peform the aforementioned Sagemaker actions. 
+Another notebook (SagemakerProject.ipynb) will also be provided with steps to run the most accurate model in an Amazon Sagemaker environment. The notebook guides you through a variety of Sagemaker-specific steps including configuring and launching a training job, evaluating the results of that training job, deploying your model to an inference endpoint, and tearing down that endpoint as part of the cleanup process. This notebook can be run the same way as any Jupyter notebook but requires the AWS SDK to be installed and for your machine to have the necessary AWS permissions to perform the aforementioned Sagemaker actions. 
 
 
 **Tags:** machine learning, time-series, activity recognition, accelerometer, classification
